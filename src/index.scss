@@ -1,0 +1,22 @@
+@import '/node_modules/reset-css/sass/reset';
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #000;
+    // @media (prefers-color-scheme: dark) {
+    //     color: #FFF;
+    // }
+}
+
+#amatic-header {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+    
+
+#amatic-paragraph {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 400;
+}
