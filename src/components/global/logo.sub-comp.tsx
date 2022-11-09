@@ -1,8 +1,12 @@
 import { Image } from "@chakra-ui/react";
 import LogoImg from "../../assets/images/logo.png";
 
-const Logo = ({ boxSize }) => {
-  return <Image src={LogoImg} boxSize={boxSize} />;
+interface Props {
+  boxSize: string;
+};
+
+const Logo = (props: Props) => {
+  return <Image src={LogoImg} boxSize={props.boxSize} />;
 };
 
 export default Logo;
