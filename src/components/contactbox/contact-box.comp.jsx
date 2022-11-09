@@ -23,9 +23,9 @@ import { RiQuestionMark } from 'react-icons/ri';
 import contactbox from '../../assets/images/home_images/contactbox.jpg';
 
 const Contactbox = () => {
-  const form = useRef<HTMLDivElement | undefined | string>();
+  const form = useRef();
 
-  const sendEmail = (e: React.FormEvent): void => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
